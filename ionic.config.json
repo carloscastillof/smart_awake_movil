@@ -1,0 +1,7 @@
+{
+  "name": "smartawake",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="secondary">
+      <ion-button>
+        <ion-icon slot="icon-only" name="person-circle"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>Alarmas</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-row class="ion-align-items-center">
+        <ion-col size="9">
+          <ion-card-title>5:30 AM</ion-card-title>
+          <ion-card-subtitle class="subtitle-spacing">Febrero 24 2024</ion-card-subtitle> <!-- Movido a la misma columna que el título -->
+        </ion-col>
+        <ion-col size="3" class="ion-text-end">
+          <ion-toggle [checked]="true" align-self-center></ion-toggle> <!-- Alineado verticalmente al centro -->
+        </ion-col>
+      </ion-row>
+    </ion-card-header>
+  </ion-card>
+</ion-content>
