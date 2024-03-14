@@ -1,0 +1,40 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="secondary">
+      <ion-button>
+        <ion-icon slot="icon-only" name="person-circle"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>Categorías</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-buttons slot="secondary">
+        <ion-button>
+          <ion-icon slot="icon-only" name="person-circle"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+      <ion-title>Categorías</ion-title>
+    </ion-toolbar>
+  </ion-header>
+    <ion-list>
+      <ion-item>
+        <ion-toggle [checked]="true">Matemáticas</ion-toggle>
+      </ion-item>
+      <ion-item>
+        <ion-toggle [checked]="true">Historia</ion-toggle>
+      </ion-item>
+      <ion-item>
+        <ion-toggle [checked]="true">Artes</ion-toggle>
+      </ion-item>
+      <ion-item>
+        <ion-toggle>Deportes</ion-toggle>
+      </ion-item>
+      <ion-item>
+        <ion-toggle>Entretenimiento</ion-toggle>
+      </ion-item>
+    </ion-list>
+</ion-content>
